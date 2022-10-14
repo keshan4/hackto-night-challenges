@@ -92,3 +92,24 @@ nav .logo{
       #click:checked ~ ul li a{
         margin-left: 0px;
       }
+      nav ul li a.active,
+      nav ul li a:hover{
+        background: none;
+        color: cyan;
+      }
+    }
+    .content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: -1;
+      width: 100%;
+      padding: 0 30px;
+      color: #1b1b1b;
+    }
+    .content div{
+      font-size: 40px;
+      font-weight: 700;
+    }  
